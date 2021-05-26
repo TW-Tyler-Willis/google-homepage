@@ -4,15 +4,19 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Google Homepage</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Google Homepage</title>
+    <meta name="description" content="" />
+    <!---<meta name="viewport" content="width=device-width, initial-scale=1">--->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d50179c060.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="flex-1">
         <nav class="navbar">
             <div class="navbar-left">
                 <a href="#">About</a>
@@ -21,35 +25,43 @@
             <div class="navbar-right">
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
+                <a href="#" class="menu-button"><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i></a>
+                <a id="user-icon" href="#">T</a>
             </div>
         </nav>
+    </div>
 
+    <div class="flex-2">
         <div class="main-body">
-            <div>
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <div class="google-logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" />
             </div>
-            <div>
-                <input class="search" type="text">
+            <div class="search-input">
+                <i class="fas fa-search"></i>
+                <input class="search" type="text" />
+                <i class="fas fa-microphone"></i>
             </div>
+
             <div class="search-buttons">
                 <button type="submit" class="search-button">Google Search</button>
                 <button type="submit" class="search-button">I'm Feeling Lucky</button>
             </div>
         </div>
+    </div>
 
-        <footer>
-            <div>
+    <div class="flex-3">
+        <div class="footer">
+            <div id="country">
                 <p>United Kingdom</p>
             </div>
-            <hr>
-            <div>
+            <div class="footer-mid">
                 <div>
                     <a href="#">Advertising</a>
                     <a href="#">Business</a>
                     <a href="#">How Search works</a>
                 </div>
                 <div>
-                    <p>Carbon neutral since 2007</p>
+                    <p><i class="fab fa-envira"></i> Carbon neutral since 2007</p>
                 </div>
                 <div>
                     <a href="#">Privacy</a>
@@ -57,10 +69,10 @@
                     <a href="#">Settings</a>
                 </div>
             </div>
-        </footer>
-        
+        </div>
+    </div>
 
-        
-        <script src="" async defer></script>
-    </body>
+    <script src="" async defer></script>
+</body>
+
 </html>
