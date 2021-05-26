@@ -90,8 +90,7 @@ body {
     border: 1px solid lightgray;
     outline: none;
     padding: 0 2.7em;
-    /*margin: 2em 0;*/
-    width: 60vw;
+    width: 600px;
     height: 3.4em;
     border-radius: 90px;
     background-color: transparent;
@@ -99,7 +98,6 @@ body {
 
 .search-input {
     display: flex;
-    justify-content: baseline;
 }
 
 .fa-search {
